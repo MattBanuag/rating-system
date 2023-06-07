@@ -8,3 +8,10 @@
 .rating-text {
     bottom: 35%;
 }
+
+/* DIALOG BUTTON */
+.dialog-btn {
+    position: fixed;
+    right: 5%;
+    bottom: 10%;
+}

@@ -6,11 +6,11 @@ function StarRating() {
     const ratings = ['Poor', 'Satisfactory', 'Good', 'Very Good', 'Excellent'];
 
     // STATE
-    let [rating, setRating] = useState(-1);
+    const [rating, setRating] = useState(-1);
 
     // FUNCTIONS
     const handleSetRating = function(i) {
-        setRating(rating = i);
+        setRating(i);
     };
 
   return (
